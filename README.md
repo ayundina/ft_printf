@@ -53,7 +53,7 @@ main.c may look like:
 
 int main(void)
 {
-ft_printf("|% 50s|\n", "here goes right adjustment");
-return (0);
+	ft_printf("|% 50s|\n", "here goes right adjustment");
+	return (0);
 }
 ```
