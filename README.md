@@ -37,7 +37,7 @@ printing to a file descriptor — ft_dprintf(int fd, const char *format, ...)
 
 # Usage
 ```
-$ clone
+$ clone https://github.com/ayundina/ft_printf.git
 $ cd ft_printf
 $ make
 $ gcc main.c libftprintf.a
