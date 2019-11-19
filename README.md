@@ -40,7 +40,7 @@ printing to a file descriptor — ft_dprintf(int fd, const char *format, ...)
 $ clone https://github.com/ayundina/ft_printf.git
 $ cd ft_printf
 $ make
-$ gcc main.c libftprintf.a
+$ gcc main.c -L. -lftprintf
 $ ./a.out
 ```
 main.c may look like:
@@ -49,7 +49,7 @@ main.c may look like:
 
 int main(void)
 {
-	ft_printf("%8.4d", -424242424);
+	ft_printf("|% 50s|\n", "here goes right adjustment");
 	return (0);
 }
 ```
