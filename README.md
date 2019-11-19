@@ -1,6 +1,10 @@
 # ft_printf
 The progect is reproducing functionality of printf</br>
-Prototype: int ft_printf(const char *format, ...);</br>
+
+**Prototype:**</br>
+int ft_printf(const char *format, ...);</br>
+int ft_dprintf(int fd, const char *format, ...)</br>
+
 **Supported formats:**</br>
 c — unsigned char</br>
 s — string</br>
@@ -49,7 +53,7 @@ main.c may look like:
 
 int main(void)
 {
-	ft_printf("|% 50s|\n", "here goes right adjustment");
-	return (0);
+ft_printf("|% 50s|\n", "here goes right adjustment");
+return (0);
 }
 ```
